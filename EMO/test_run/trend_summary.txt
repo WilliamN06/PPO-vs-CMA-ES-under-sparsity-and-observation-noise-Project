@@ -1,0 +1,14 @@
+EMO basic-trend pilot summary
+========================================
+NSGA2_nondeg: True
+NSGA2_hv: 244695.98761104987
+NSGA2_hv_final: 244695.98761104987
+NSGA2_npoints: 40
+NSGA2_hv_increase: False
+SMS_EMOA_nondeg: True
+SMS_EMOA_hv: 244695.98761104987
+SMS_EMOA_hv_final: 244695.98761104987
+SMS_EMOA_npoints: 40
+SMS_EMOA_hv_increase: False
+shared_nondom: 80
+total_points: 80

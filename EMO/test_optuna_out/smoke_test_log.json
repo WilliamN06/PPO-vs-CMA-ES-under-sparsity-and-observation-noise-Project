@@ -1,0 +1,64 @@
+{
+  "study": "smoke_test",
+  "algorithm_name": "PPO",
+  "n_trials": 3,
+  "elapsed_sec": 0.003248453140258789,
+  "trials": [
+    {
+      "number": 0,
+      "value": -65.54087970645173,
+      "params": {
+        "lr": 0.0012520653814999472,
+        "clip_eps": 0.3860757465489678,
+        "n_epochs": 13,
+        "batch_size": 147,
+        "ent_coef": 0.0018662266976517971,
+        "gae_lambda": 0.9639435171935989,
+        "vf_coef": 0.49382849013642327,
+        "max_grad_norm": 4.469687703832191
+      },
+      "state": "TrialState.COMPLETE"
+    },
+    {
+      "number": 1,
+      "value": -219.30193635243347,
+      "params": {
+        "lr": 0.008459126528049376,
+        "clip_eps": 0.2533766075303111,
+        "n_epochs": 16,
+        "batch_size": 143,
+        "ent_coef": 0.005059803874660437,
+        "gae_lambda": 0.9916340671909735,
+        "vf_coef": 0.16393245237809825,
+        "max_grad_norm": 0.5269335685375495
+      },
+      "state": "TrialState.COMPLETE"
+    },
+    {
+      "number": 2,
+      "value": -293.94932330675965,
+      "params": {
+        "lr": 0.00010975815419380165,
+        "clip_eps": 0.4330479382191752,
+        "n_epochs": 16,
+        "batch_size": 225,
+        "ent_coef": 0.08626905220714905,
+        "gae_lambda": 0.9791166978574557,
+        "vf_coef": 0.5153314260276387,
+        "max_grad_norm": 3.924592963803632
+      },
+      "state": "TrialState.COMPLETE"
+    }
+  ],
+  "best": {
+    "lr": 0.0012520653814999472,
+    "clip_eps": 0.3860757465489678,
+    "n_epochs": 13,
+    "batch_size": 147,
+    "ent_coef": 0.0018662266976517971,
+    "gae_lambda": 0.9639435171935989,
+    "vf_coef": 0.49382849013642327,
+    "max_grad_norm": 4.469687703832191
+  },
+  "best_value": -65.54087970645173
+}

@@ -1,0 +1,11 @@
+# EMO experiment dependencies (matching fixed_runs/version3 venv)
+optuna>=3.0,<5
+cma>=3.3,<5
+stable-baselines3>=2.0
+gymnasium>=0.28
+torch>=2.0
+numpy>=1.24
+scipy>=1.10
+pandas>=2.0
+pymoo>=0.5.5
+mujoco>=3.0
